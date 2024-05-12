@@ -1,0 +1,99 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SkyWings Airlines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="SkyWings Airlines">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book a Flight</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to SkyWings Airlines</h1>
+            <p>Experience the joy of flying with us.</p>
+            <a href="#" class="cta-btn">Book Now</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2>About SkyWings Airlines</h2>
+            <p>SkyWings Airlines is committed to providing safe, reliable, and comfortable air travel to destinations worldwide. With a focus on customer satisfaction, we offer a range of services to make your journey memorable.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SkyWings Airlines. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SkyAir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="SkyAir">
+        </div>
+        <div class="hero-image">
+            <img src="airplane.jpg" alt="Airplane">
+        </div>
+        <h1>Welcome to SkyAir</h1>
+        <h3>We value your feedback</h3>
+    </header>
+    
+    <main>
+        <form action="/submit-feedback.php" class="feedback-form">
+            <div class="input-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" required></textarea>
+            </div>
+            
+            <div class="input-group">
+                <label for="rating">Rate our service (1-10):</label>
+                <input type="number" id="rating" name="rating" min="1" max="10" required>
+            </div>
+            
+            <div class="submit-btn">
+                <input type="submit" value="Submit Feedback">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SkyAir. All rights reserved.</p>
+    </footer>
+</body>
+</html>
